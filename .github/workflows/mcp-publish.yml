@@ -62,7 +62,7 @@ jobs:
       matrix:
         include:
           - package: "@ferrlens/mcp"
-            image: ferrlens-mcp
+            image: ferrlens-mcp-server
     permissions:
       contents: read
       packages: write
