@@ -44,7 +44,7 @@ FerrFlow CLI-specific tools (`dry_run`, `validate_config`, `read_config`, `read_
 | `FERRLENS_API_URL`     | Base URL for the FerrLens API (`@ferrlens/mcp`).                      | `https://api.ferrlens.com` |
 | `FERRLENS_API_VERSION` | Contract version sent as `x-ferrlens-api-version` by `@ferrlens/mcp`. | `2026-08-04`               |
 
-Shared variables (token, OAuth, host allowlist, HTTP transport, output cap) are read by [`@ferrlabs/mcp-core`](https://github.com/FerrLabs/MCP/tree/main/packages/mcp-core) and documented in the [FerrLabs MCP README](https://github.com/FerrLabs/MCP#configuration).
+Shared variables (token, OAuth, host allowlist, HTTP transport, output cap) are read by [`@ferrlabs/mcp-core`](https://github.com/FerrLabs/FerrLabs/tree/main/packages/mcp-core) and documented in the [FerrLabs MCP README](https://github.com/FerrLabs/FerrLabs/blob/main/packages/mcp/README.md#configuration).
 
 ## Development
 
