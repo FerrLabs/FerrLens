@@ -1,6 +1,6 @@
 ARG PACKAGE=@ferrlens/mcp
 
-FROM node:24-alpine AS build
+FROM node:24-alpine@sha256:06d7adf3e0ef61a13f1d28682726366f97a15aa1888c934d3ecec86c33918b53 AS build
 ARG PACKAGE
 WORKDIR /app
 ENV HUSKY=0 \
@@ -13,7 +13,7 @@ RUN pnpm install --frozen-lockfile --offline
 RUN pnpm run build
 RUN pnpm --filter "${PACKAGE}" deploy --prod --legacy /out
 
-FROM node:24-alpine
+FROM node:24-alpine@sha256:06d7adf3e0ef61a13f1d28682726366f97a15aa1888c934d3ecec86c33918b53
 WORKDIR /app
 ENV NODE_ENV=production \
     FERRLABS_MCP_MODE=http \
