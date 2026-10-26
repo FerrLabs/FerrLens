@@ -4,6 +4,13 @@ All notable changes to `ferrlens-mcp` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [10.13.4] - 2026-10-26
+
+### Bug Fixes
+
+- fix(deps): override body-parser to >=2.4.0 for GHSA-27r3-jxmh-p828 (#18)
+- fix(ci): stop moving latest on manual republish and pin node base image (#14)
+
 ## [10.13.3] - 2026-10-21
 
 ### Bug Fixes
