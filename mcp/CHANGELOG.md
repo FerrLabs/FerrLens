@@ -4,6 +4,12 @@ All notable changes to `ferrlens-mcp` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [10.13.11] - 2026-11-24
+
+### Bug Fixes
+
+- fix(deps): update dependency @ferrlabs/mcp-core to ^10.17.1 (#49)
+
 ## [10.13.10] - 2026-11-19
 
 ### Bug Fixes
